@@ -3,20 +3,20 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mbaloyi <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: mbaloyi <mbaloyi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/18 14:48:27 by mbaloyi           #+#    #+#             */
-/*   Updated: 2018/06/12 11:08:21 by mbaloyi          ###   ########.fr       */
+/*   Updated: 2019/07/15 17:54:26 by mbaloyi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # define BUFF_SIZE 32
-# include <string.h>
-# include <stdlib.h>
-# include <unistd.h>
-# include <wchar.h>
+# include <.string.h>
+// # include <stdlib.h>
+// # include <unistd.h>
+// # include <wchar.h>
 
 void	*ft_memset(void *b, int c, size_t len);
 void	ft_bzero(void *s, size_t n);
