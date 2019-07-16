@@ -6,7 +6,7 @@
 #    By: mbaloyi <mbaloyi@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/05/18 17:20:48 by mbaloyi           #+#    #+#              #
-#    Updated: 2019/07/16 10:41:32 by mbaloyi          ###   ########.fr        #
+#    Updated: 2019/07/16 11:02:17 by mbaloyi          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,6 +22,9 @@ all:
 	@make -C ../libft all
 	@$(CC) ft_ls.c -o ft_ls $(LIBFT) 
 
+recom :
+	@$(CC) ft_ls.c -o ft_ls $(LIBFT) 
+	
 clean:
 	@make -C ../libft clean
 	@rm -rf $(OBJS)
