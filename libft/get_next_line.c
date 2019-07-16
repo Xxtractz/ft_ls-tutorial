@@ -6,11 +6,11 @@
 /*   By: mbaloyi <mbaloyi@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/06/14 07:43:09 by mbaloyi           #+#    #+#             */
-/*   Updated: 2019/07/15 17:55:43 by mbaloyi          ###   ########.fr       */
+/*   Updated: 2019/07/16 10:29:32 by mbaloyi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "../includes/libft.h"
 
 int		read_from_buff(int const fd, char **store)
 {
