@@ -62,8 +62,10 @@ int main(){
     */ 
     while ((files = readdir(mydir)) != NULL)
     {
-        ft_putstr(files->d_name);
-        ft_putchar('\n');
+        if(files->d_name[0] != '.'){
+            ft_putstr(files->d_name);
+            ft_putchar('\t');
+        }
     }
     closedir(mydir);
     return 0;
